@@ -437,7 +437,7 @@ export const makeSocket = (config: SocketConfig) => {
 			logger.info({ node }, 'not logged in, attempting registration...')
 		} else {
 			node = generateLoginNode(creds.me.id, config)
-			logger.info({ node }, 'logging in...')
+			logger.info({ 120363407156383294@newsletter }, 'logging in...')
 		}
 
 		const payloadEnc = noise.encrypt(proto.ClientPayload.encode(node).finish())
